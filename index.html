@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sorteio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <img src="./assets/sort-logo.png" alt="Logo do Sorteador" class="logo" />
+
+    <div id="resultado">Boa sorte!</div>
+
+    <h1>Escolha um número</h1>
+
+    <div class="input-group">
+      <label for="minimo" class="sr-only">Valor mínimo</label>
+      <input type="number" placeholder="Entre" id="minimo" />
+      
+      <label for="maximo" class="sr-only">Valor máximo</label>
+      <input type="number" placeholder="E" id="maximo" />
+    </div>
+
+    <button id="sortear">Sortear</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
